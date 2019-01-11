@@ -1,16 +1,16 @@
 {
-  "_from": "zcrmsdk@0.0.15",
-  "_id": "zcrmsdk@0.0.15",
+  "_from": "zohosdk@0.0.15",
+  "_id": "zohosdk@0.0.15",
   "_inBundle": false,
   "_integrity": "sha512-YnzpdSqiPHYQgM/zm4yhMW28ThLxIfTHskjzMW7n2A/Tnt/1T6od7P5DKEe5q39C92/OABB1WRYo6NkWcgn5Ng==",
-  "_location": "/zcrmsdk",
+  "_location": "/zohosdk",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "zcrmsdk@0.0.15",
-    "name": "zcrmsdk",
-    "escapedName": "zcrmsdk",
+    "raw": "zohosdk@0.0.15",
+    "name": "zohosdk",
+    "escapedName": "zohosdk",
     "rawSpec": "0.0.15",
     "saveSpec": null,
     "fetchSpec": "0.0.15"
@@ -19,9 +19,9 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/zcrmsdk/-/zcrmsdk-0.0.15.tgz",
+  "_resolved": "https://registry.npmjs.org/zohosdk/-/zohosdk-0.0.15.tgz",
   "_shasum": "f295f4a95d5976336e308f365a89e2005f52d70a",
-  "_spec": "zcrmsdk@0.0.15",
+  "_spec": "zohosdk@0.0.15",
   "_where": "/Users/caraquem/Documents/woonivers/serverless-functions",
   "author": {
     "name": "Zoho CRM API Team",
@@ -45,6 +45,6 @@
     "API"
   ],
   "main": "lib/js/ZCRMRestClient",
-  "name": "zcrmsdk",
+  "name": "zohosdk",
   "version": "0.0.15"
 }
