@@ -26,13 +26,13 @@ Since Zoho CRM APIs are authenticated with OAuth2 standards, you should register
 
 ##Installation of Node CRM SDK
 
-Node JS SDK will be installed and a package named 'zcrmsdk' will be created in the installation directory.
+Node JS SDK will be installed and a package named 'zohosdk' will be created in the installation directory.
 
->npm install zcrmsdk
+>npm install zohosdk
 
 Once installed it can be used in the code as below,
 
->var ZCRMRestClient = require('zcrmsdk')
+>var ZCRMRestClient = require('zohosdk')
 
 ##API Usage
 
@@ -41,7 +41,7 @@ Once installed it can be used in the code as below,
 Your OAuth Client details should be given to the SDK as a property file. In the SDK, you need to configure a file named oauth_configuration.properties. Please place the respective values in that file. You can place it under resources/ package from where the SDK is used.
 
 
-zcrmsdk will try reading file from **'resources/oauth_configuration.properties'** 
+zohosdk will try reading file from **'resources/oauth_configuration.properties'** 
 
 
 Please fill the values for the following keys alone.
@@ -128,7 +128,7 @@ Each time server is restarted, this function has to be called and both the confi
 Below snippet has to be called before starting the app
 
 ```
-var ZCRMRestClient = require('zcrmsdk');
+var ZCRMRestClient = require('zohosdk');
 
 ZCRMRestClient.initialize().then(function(){
 
@@ -201,7 +201,7 @@ crmclient.API.MODULES.get(input).then(function(response){
 
 
 ##Hierarchy
-zcrmsdk
+zohosdk
 
  ```
    API
@@ -243,9 +243,9 @@ zcrmsdk
  ```
 
 
-As appearing in the hierarchy, zcrmsdk entity class has instance variables to fetch its own properties and to fetch data of its immediate child entities through an API call.
+As appearing in the hierarchy, zohosdk entity class has instance variables to fetch its own properties and to fetch data of its immediate child entities through an API call.
 
-For example, to call an API to get module data, the request should be zcrmsdk.API.MODULES.{operation_type}. The operation types can be GET, POST, PUT, DELETE or CREATE.
+For example, to call an API to get module data, the request should be zohosdk.API.MODULES.{operation_type}. The operation types can be GET, POST, PUT, DELETE or CREATE.
 
 
 
