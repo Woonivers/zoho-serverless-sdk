@@ -1,16 +1,16 @@
 {
-  "_from": "zohosdk@0.0.15",
-  "_id": "zohosdk@0.0.15",
+  "_from": "zoho-serverless-sdk@0.0.15",
+  "_id": "zoho-serverless-sdk@0.0.15",
   "_inBundle": false,
   "_integrity": "sha512-YnzpdSqiPHYQgM/zm4yhMW28ThLxIfTHskjzMW7n2A/Tnt/1T6od7P5DKEe5q39C92/OABB1WRYo6NkWcgn5Ng==",
-  "_location": "/zohosdk",
+  "_location": "/zoho-serverless-sdk",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "zohosdk@0.0.15",
-    "name": "zohosdk",
-    "escapedName": "zohosdk",
+    "raw": "zoho-serverless-sdk@0.0.15",
+    "name": "zoho-serverless-sdk",
+    "escapedName": "zoho-serverless-sdk",
     "rawSpec": "0.0.15",
     "saveSpec": null,
     "fetchSpec": "0.0.15"
@@ -19,13 +19,13 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/zohosdk/-/zohosdk-0.0.15.tgz",
+  "_resolved": "https://registry.npmjs.org/zoho-serverless-sdk/-/zoho-serverless-sdk-0.0.15.tgz",
   "_shasum": "f295f4a95d5976336e308f365a89e2005f52d70a",
-  "_spec": "zohosdk@0.0.15",
+  "_spec": "zoho-serverless-sdk@0.0.15",
   "_where": "/Users/caraquem/Documents/woonivers/serverless-functions",
   "author": {
     "name": "Zoho CRM API Team",
-    "url": "support@zohocrm.com"
+    "url": "carlos.araque@woonivers.com"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -45,6 +45,6 @@
     "API"
   ],
   "main": "lib/js/ZCRMRestClient",
-  "name": "zohosdk",
+  "name": "zoho-serverless-sdk",
   "version": "0.0.15"
 }
